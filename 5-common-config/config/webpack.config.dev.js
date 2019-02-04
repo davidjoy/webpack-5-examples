@@ -1,6 +1,6 @@
 module.exports = {
   mode: 'development',
-  devtool: 'eval-source-map',
+  devtool: 'source-map',
   output: {
     filename: '[name].bundle.js',
   }

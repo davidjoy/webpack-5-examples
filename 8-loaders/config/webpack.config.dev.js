@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  devtool: 'eval-source-map',
+  devtool: 'source-map',
   output: {
     filename: '[name].bundle.js'
   },
@@ -11,8 +11,6 @@ module.exports = {
     contentBase: path.join(__dirname, '..', 'build')
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      template: 'src/index.html'
-    })
+    new HtmlWebpackPlugin()
   ]
 };
