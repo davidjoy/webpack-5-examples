@@ -63,3 +63,4 @@ typings/
 **/*/.DS_Store
 */build
 /01-basic/dist
+02-basic-with-config/dist

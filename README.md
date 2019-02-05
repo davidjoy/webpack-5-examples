@@ -12,73 +12,79 @@ For each subdirectory:
 
 - `npm install`
 
-For 01:
+For 01-03:
 
 - `./node_modules/.bin/webpack`
 
-For 02 - 03:
-- `./node_modules/.bin/webpack --config=webpack.config.js`
-
 For 04-14: 
 
-- `npm start` (examples 04 - 14)
+- `npm start`
 
-## 01 - Basic
+## The Examples
 
-Webpack without a configuration file.
+### 01 - Basic
 
-## 02 - Basic With Config
+- Webpack without a configuration file.
+- 'mode' argument
+- 'dist' output directory
 
-Webpack with a simple configuration file.
+### 02 - Basic With Config
 
-## 03 - Custom config
+- Webpack with a simple configuration file.
+- Uses default configuration file name/location
 
-A mildly customized configuration file, demonstrating some basic settings.
+### 03 - Custom config
 
-## 04 - Environment configs
+- A mildly customized configuration file, demonstrating some basic settings.
+- Example of how dev/prod configs start to differ
 
-Basic example of having environment-specific (dev, prod) configurations.
+### 04 - Environment configs
 
-## 05 - Common configuration extraction
+- Basic example of having environment-specific (dev, prod) configurations.
+- Common configuration entry point which branches on NODE_ENV.
 
-Extracting common configuration elements into a separate file, merged into environment configs.
+### 05 - Common configuration extraction
 
-## 06 - Webpack Dev Server
+- Extracting common configuration elements into a separate file, merged into environment configs.
 
-Usage with webpack-dev-server (very common).
+### 06 - Webpack Dev Server
 
-## 07 - Express
+- Usage with webpack-dev-server (very common).
+- Note generated HTML file.
 
-Running webpack-dev-middleware and webpack-hot-middleware with express
+### 07 - Express
 
-## 08 - Loaders
+- Running webpack-dev-middleware and webpack-hot-middleware with express
+- Note how hot reloading becomes difficult.
+- Needs a "real" HTML file.
 
-Using some common loaders for other file types.
+### 08 - Loaders
 
-## 09 - Plugins
+- Using some common loaders for other file types.
 
-Using some common plugins for more exciting output.
+### 09 - Plugins
 
-## 10 - Babel
+- Using some common plugins for more exciting output.
 
-Using babel-loader for JavaScript transpilation.
+### 10 - Babel
 
-## 11 - Plugin Authoring
+- Using babel-loader for JavaScript transpilation.
 
-Example of authoring a plugin.
+### 11 - Plugin Authoring
 
-## 12 - Split Chunks
+- Example of authoring a plugin.
 
-Having multiple entry points and common code extraction.
+### 12 - Split Chunks
 
-## 13 - DLLs
+- Having multiple entry points and common code extraction.
 
-Using DLL plugins to extract third party code for faster builds / caching.
+### 13 - DLLs
 
-Note: Example 13 (DLLs) is currently a bit broken.  It doesn't properly exclude jquery from the main application bundle. 
+- Using DLL plugins to extract third party code for faster builds / caching.
+- Note: Example 13 (DLLs) is currently a bit broken.  It doesn't properly exclude jquery from the main application bundle. 
 
-## 14 - Code splitting
+### 14 - Code splitting
 
-Code splitting with dynamic imports. `import()`
+- Code splitting with dynamic imports. `import()`
 
 
