@@ -17,4 +17,6 @@ For 04-14:
 
 - `npm start` (examples 04 - 14)
 
+# Note:
 
+- Example 13 (DLLs) is currently a bit broken.  It doesn't properly exclude jquery from the main application bundle.  
