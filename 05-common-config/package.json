@@ -1,7 +1,7 @@
 {
   "name": "webpack-4-examples",
   "version": "1.0.0",
-  "description": "Jeopardy for webpack.  Kind of.",
+  "description": "Webpack 4 examples.",
   "main": "src/index.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack --config=./config/webpack.config.js",
