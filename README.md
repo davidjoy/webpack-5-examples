@@ -25,8 +25,8 @@ For 04-14:
 ### 01 - Basic
 
 - Webpack without a configuration file.
-- 'mode' argument
-- 'dist' output directory
+- `mode` argument
+- `dist` output directory
 
 ### 02 - Basic With Config
 
