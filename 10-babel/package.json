@@ -1,5 +1,5 @@
 {
-  "name": "webpackardy",
+  "name": "webpack-4-examples",
   "version": "1.0.0",
   "description": "Jeopardy for webpack.  Kind of.",
   "main": "src/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidjoy/webpackardy.git"
+    "url": "git+https://github.com/davidjoy/webpack-4-examples.git"
   },
   "keywords": [
     "webpack"
@@ -18,9 +18,9 @@
   "author": "David Joy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidjoy/webpackardy/issues"
+    "url": "https://github.com/davidjoy/webpack-4-examples/issues"
   },
-  "homepage": "https://github.com/davidjoy/webpackardy#readme",
+  "homepage": "https://github.com/davidjoy/webpack-4-examples#readme",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
