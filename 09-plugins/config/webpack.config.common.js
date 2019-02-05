@@ -42,7 +42,11 @@ module.exports = {
     new webpack.EnvironmentPlugin({
       DEBUG: process.env.NODE_ENV === 'development',
       NODE_ENV: process.env.NODE_ENV
-    })
+    }),
+    // Webpack manifest plugin
+    // Progress bars
+    // PostCSS / autoprefixer
+    // All sorts of fun stuff
   ],
   resolve: {
     modules: [
