@@ -4,6 +4,13 @@
 
 Webpack is a module bundler.  It turns source files into deployable web application artifacts.
 
+- Processes JavaScript and JSON by default.
+- Can be extended to process other file types.
+- Creates a `compiler` instance which crawls import tree from entry points.
+- Compiler populates a `compilation` object as it traverses.
+- Provides hooks to give loaders and plugins access to the compiler and compilation object to perform additional, custom operations.
+- Outputs bundles.
+
 ## Usage of this repo
 
 Examples of various webpack configs, generally increasing in complexity.
@@ -25,8 +32,10 @@ For 04-14:
 ### 01 - Basic
 
 - Webpack without a configuration file.
-- `mode` argument
+- `mode` argument (`development` or `production`)
 - `dist` output directory
+- Take a look at the output bundle!
+- Run `node dist/main.js` for kicks.
 
 ### 02 - Basic With Config
 
@@ -37,6 +46,7 @@ For 04-14:
 
 - A mildly customized configuration file, demonstrating some basic settings.
 - Example of how dev/prod configs start to differ
+- Fingerprinting
 
 ### 04 - Environment configs
 
@@ -51,6 +61,7 @@ For 04-14:
 
 - Usage with webpack-dev-server (very common).
 - Note generated HTML file.
+- Note that bundle is not written to filesystem.  It's stored in memory.
 
 ### 07 - Express
 
@@ -58,21 +69,29 @@ For 04-14:
 - Note how hot reloading becomes difficult.
 - Needs a "real" HTML file.
 
-### 08 - Loaders
+### 08 - Loaders 
 
 - Using some common loaders for other file types.
+- There are lots of loaders: https://webpack.js.org/loaders/
+- If you didn't realize my love for my cat earlier, you will now.
 
 ### 09 - Plugins
 
 - Using some common plugins for more exciting output.
+- There are lots of plugins: https://webpack.js.org/plugins/
 
 ### 10 - Babel
 
 - Using babel-loader for JavaScript transpilation.
+- Example of babel preset-env.  
+- Note how output changes (`const`, for instance) if the output target is changed to `"ie": "11"`
 
 ### 11 - Plugin Authoring
 
-- Example of authoring a plugin.
+- Basic example of authoring a plugin.
+- Many more hooks are available: 
+  - https://webpack.js.org/api/compiler-hooks/
+  - https://webpack.js.org/api/compilation-hooks/
 
 ### 12 - Split Chunks
 
