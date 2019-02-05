@@ -1,4 +1,4 @@
-# webpack-4-examples
+# Webpack 4 Examples
 
 Examples of various webpack configs, generally increasing in complexity.
 
