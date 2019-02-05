@@ -32,7 +32,7 @@ module.exports = {
 // const path = require('path');
 
 // module.exports = {
-//   mode: 'development',
+//   mode: 'production',
 //   entry: 'main.js',
 //   output: {
 //     filename: '[name].[hash].bundle.js',
