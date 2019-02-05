@@ -47,7 +47,7 @@ module.exports = {
 // }
 
 /**
- * Gosh, we have two configs.
+ * Gosh, we basically have two configs.
  * 
  * NOTE: When in production mode, minimization happens automatically.
  */
