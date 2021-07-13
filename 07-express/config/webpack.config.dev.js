@@ -16,8 +16,12 @@ module.exports = {
     new webpack.NoEmitOnErrorsPlugin()
   ],
   devServer: {
-    contentBase: path.join(__dirname, '..', 'build'),
-    publicPath: '/',
-    hot: true
+    hot: true,
+    static: [
+      path.join(__dirname, '..', 'build'),
+    ],
+    devMiddleware: {
+      publicPath: '/',
+    },
   }
 };
