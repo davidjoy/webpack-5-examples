@@ -22,7 +22,7 @@ module.exports = {
     filename: '[name].bundle.js'
   },
   devServer: {
-    contentBase: path.join(__dirname, '..', 'build')
+    static: [path.join(__dirname, '..', 'build')]
   },
   plugins: [
     new HtmlWebpackPlugin({
