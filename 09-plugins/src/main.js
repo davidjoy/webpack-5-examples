@@ -1,4 +1,4 @@
-const cat1 = require('./images/cat1.png'); // cats1 contains the output path of the required file.
+const cat1 = require('./images/cat1.png').default; // cats1 contains the output path of the required file.
 const cats = require('./cats');
 
 require('main.css');
