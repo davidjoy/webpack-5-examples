@@ -1,7 +1,6 @@
 
 const path = require('path');
-
-const LogAllTheThingsPlugin = require('./LogAllTheThingsPlugin');
+const { FileListPlugin } = require('./FileListPlugin');
 
 module.exports = {
   entry: 'main.js',
@@ -9,7 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, '..', 'build')
   },
   plugins: [
-    new LogAllTheThingsPlugin()
+    new FileListPlugin()
   ],
   resolve: {
     modules: [
@@ -18,4 +17,3 @@ module.exports = {
     ]
   }
 }
-
