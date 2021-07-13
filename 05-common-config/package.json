@@ -1,5 +1,5 @@
 {
-  "name": "webpack-4-examples",
+  "name": "webpack-5-examples",
   "version": "1.0.0",
   "description": "Webpack 4 examples.",
   "main": "src/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidjoy/webpack-4-examples.git"
+    "url": "git+https://github.com/davidjoy/webpack-5-examples.git"
   },
   "keywords": [
     "webpack"
@@ -17,9 +17,9 @@
   "author": "David Joy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidjoy/webpack-4-examples/issues"
+    "url": "https://github.com/davidjoy/webpack-5-examples/issues"
   },
-  "homepage": "https://github.com/davidjoy/webpack-4-examples#readme",
+  "homepage": "https://github.com/davidjoy/webpack-5-examples#readme",
   "devDependencies": {
     "webpack": "^5.44.0",
     "webpack-cli": "^4.7.2",
