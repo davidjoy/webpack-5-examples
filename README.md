@@ -1,4 +1,4 @@
-# Webpack 4 Examples
+# Webpack 5 Examples
 
 ## What is webpack? https://webpack.js.org
 
