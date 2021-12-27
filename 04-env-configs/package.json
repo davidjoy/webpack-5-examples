@@ -4,8 +4,8 @@
   "description": "Webpack 5 examples.",
   "main": "src/index.js",
   "scripts": {
-    "start-prod": "./node_modules/.bin/webpack --env production --config=./config/webpack.config.js",
-    "start-dev": "./node_modules/.bin/webpack --env development --config=./config/webpack.config.js",
+    "startProd": "./node_modules/.bin/webpack --env production --config=./config/webpack.config.js",
+    "startDev": "./node_modules/.bin/webpack --env development --config=./config/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

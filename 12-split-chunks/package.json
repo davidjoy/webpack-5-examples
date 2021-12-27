@@ -1,7 +1,7 @@
 {
   "name": "webpack-5-examples",
   "version": "1.0.0",
-  "description": "Webpack 4 examples.",
+  "description": "Webpack 5 examples.",
   "main": "src/index.js",
   "scripts": {
     "start": "NODE_ENV=development ./node_modules/.bin/webpack-dev-server --config=./config/webpack.config.js",
@@ -10,22 +10,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidjoy/webpack-5-examples.git"
+    "url": "git@github.com:apeixinho/webpack-5-examples.git"
   },
   "keywords": [
     "webpack"
   ],
-  "author": "David Joy",
+  "author": "A. Peixinho",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidjoy/webpack-5-examples/issues"
+    "url": "https://github.com/apeixinho/webpack-5-examples/issues"
   },
-  "homepage": "https://github.com/davidjoy/webpack-5-examples#readme",
+  "homepage": "https://github.com/apeixinho/webpack-5-examples#readme",
   "devDependencies": {
-    "html-webpack-plugin": "^5.3.2",
-    "webpack": "^5.44.0",
-    "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^4.0.0-beta.3",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.1",
     "webpack-merge": "^5.8.0"
   }
 }

@@ -1,28 +1,29 @@
 {
   "name": "webpack-5-examples",
   "version": "1.0.0",
-  "description": "Webpack 4 examples.",
+  "description": "Webpack 5 examples.",
   "main": "src/index.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack --config=./config/webpack.config.js",
+    "startProd": "./node_modules/.bin/webpack --env production --config=./config/webpack.config.js",
+    "startDev": "./node_modules/.bin/webpack --env develop --config=./config/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidjoy/webpack-5-examples.git"
+    "url": "git@github.com:apeixinho/webpack-5-examples.git"
   },
   "keywords": [
     "webpack"
   ],
-  "author": "David Joy",
+  "author": "A. Peixinho",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidjoy/webpack-5-examples/issues"
+    "url": "https://github.com/apeixinho/webpack-5-examples/issues"
   },
-  "homepage": "https://github.com/davidjoy/webpack-5-examples#readme",
+  "homepage": "https://github.com/apeixinho/webpack-5-examples#readme",
   "devDependencies": {
-    "webpack": "^5.44.0",
-    "webpack-cli": "^4.7.2",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
     "webpack-merge": "^5.8.0"
   }
 }
