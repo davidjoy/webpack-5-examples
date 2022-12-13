@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/davidjoy/webpack-5-examples#readme",
   "devDependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "html-webpack-plugin": "^5.3.2",
     "webpack": "^5.44.0",
     "webpack-cli": "^4.7.2",
